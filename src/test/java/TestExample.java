@@ -16,6 +16,7 @@ public class TestExample {
     @BeforeAll
     public static void setup() {
         logger.info("BeforeAll");
+        WebDriverManager.chromedriver().clearDriverCache();
         WebDriverManager.chromedriver().setup();
         webDriver = new ChromeDriver();
     }
