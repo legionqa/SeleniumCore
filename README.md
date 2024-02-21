@@ -4,7 +4,7 @@ Selenium WD
 Logger
 Junit5
 
-It was tested with Java17 and Chrome v112 versions
+It was tested with Java17 and Chrome 122 versions
 
 The project can be used as a template
 
